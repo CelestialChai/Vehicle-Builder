@@ -25,7 +25,7 @@
   This project is licensed under the None license.
 
   ## Contributing
-  Amanda G. Also online web help in better understanding how and why to use functions such as 'instanceof'. W3 Schools was a big help. Honestly helped my with readability with if else statements and making them work for me. And for understanding params better.
+  Amanda G. Also online web help in better understanding how and why to use functions such as 'instanceof'. W3 Schools was a big help in understanding. Honestly helped me with readability with if else statements and making them work for me. And for understanding params better and how 'const' makes my life easier.
 
   ## Tests
   npm test
