@@ -18,7 +18,7 @@ class Truck extends Vehicle implements AbleToTow {
   wheels: Wheel[];
   towingCapacity: number;
 
-  // Constructor for the Truck class
+  // Truck class
   constructor(
     vin: string,
     color: string,
@@ -30,7 +30,7 @@ class Truck extends Vehicle implements AbleToTow {
     wheels: Wheel[],
     towingCapacity: number
   ) {
-    // Call the constructor of the vehicle parent class
+    // vehicle parent class
     super();
    // Initialize properties of the truck
     this.vin = vin;
@@ -68,7 +68,7 @@ class Truck extends Vehicle implements AbleToTow {
     }
   }
 
-  // Override the printDetails 
+  // Override the printDetails
   override printDetails(): void {
     // Call the printDetails method of the parent class, Vehicle
     super.printDetails();
@@ -83,12 +83,19 @@ class Truck extends Vehicle implements AbleToTow {
     console.log(`Top Speed: ${this.topSpeed} mph`);
     console.log(`Towing Capacity: ${this.towingCapacity} lbs`);
 
-    // Print details of the wheels
-    this.wheels.forEach((wheel, index) => {
-      console.log(
-        `Wheel ${index + 1}: ${wheel.getDiameter} inch with a ${wheel.getTireBrand} tire`
-      );
-    });
+    // added print detail for wheels
+    console.log(
+      `Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire`
+    );
+    console.log(
+      `Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
+    );
+    console.log(
+      `Wheel 3: ${this.wheels[2].getDiameter} inch with a ${this.wheels[2].getTireBrand} tire`
+    );
+    console.log(
+      `Wheel 4: ${this.wheels[3].getDiameter} inch with a ${this.wheels[3].getTireBrand} tire`
+    );
   }
 }
 

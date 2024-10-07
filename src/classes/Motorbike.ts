@@ -63,14 +63,13 @@ class Motorbike extends Vehicle {
     console.log(`Top Speed: ${this.topSpeed} mph`);
     console.log(`Color: ${this.color}`);
 
-
-    this.wheels.forEach((wheel, index) => {
-      console.log(
-        `Wheel ${index + 1}: ${wheel.getDiameter} inch with a ${wheel.getTireBrand} tire`
-      );
-    });
-  }
+//details for wheels
+console.log(
+  `Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire`
+);
+console.log(
+  `Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
+);
 }
-
-
+}
 export default Motorbike;

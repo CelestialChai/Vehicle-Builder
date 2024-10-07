@@ -25,7 +25,7 @@
   This project is licensed under the None license.
 
   ## Contributing
-  Amanda G
+  Amanda G. Also online web help in better understanding how and why to use functions such as 'instanceof'. W3 Schools was a big help. Honestly helped my with readability with if else statements. 
 
   ## Tests
   npm test
