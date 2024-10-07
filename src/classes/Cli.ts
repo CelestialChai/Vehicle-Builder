@@ -121,7 +121,7 @@ class Cli {
           parseInt(answers.year),
           parseInt(answers.weight),
           parseInt(answers.topSpeed),
-          []
+          [],
         );
         // push the car to the vehicles array
         this.vehicles.push(car);
@@ -293,7 +293,7 @@ findVehicleToTow(truck: Truck): void {
       const vehicleToTow = answers.vehicleToTow;
 
       if (vehicleToTow === truck) {
-        console.log("This truck cannot tow itself sorry. Please select another vehicle.");
+        console.log("This truck cannot tow itself sorry. Select another vehicle.");
       } else {
         truck.tow(vehicleToTow);
         console.log(`Truck ${truck.make} ${truck.model} is towing ${vehicleToTow.make} ${vehicleToTow.model}`);

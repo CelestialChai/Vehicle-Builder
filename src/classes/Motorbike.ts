@@ -25,7 +25,7 @@ class Motorbike extends Vehicle {
     topSpeed: number,
     wheels: Wheel[]
   ) {
-    // Call the constructor of the vehicl parent class
+    //
     super();
 
     this.vin = vin;
@@ -63,7 +63,7 @@ class Motorbike extends Vehicle {
     console.log(`Top Speed: ${this.topSpeed} mph`);
     console.log(`Color: ${this.color}`);
 
-//details for wheels
+//printdetails for wheels
 console.log(
   `Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire`
 );
