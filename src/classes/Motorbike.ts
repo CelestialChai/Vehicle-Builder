@@ -14,7 +14,7 @@ class Motorbike extends Vehicle {
   topSpeed: number;
   wheels: Wheel[];
 
-  // Constructor for the motorbike 
+  // Constructor for the motorbike
   constructor(
     vin: string,
     color: string,
